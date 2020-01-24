@@ -35,7 +35,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'colorama>=0.3.9,<1',
+        'colorama>=0.3.7,<1',
         'click>=6.7,<8',
         'apispec[yaml]>=1.1.1<2',
         'Flask>=0.12,<2',
