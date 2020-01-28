@@ -25,4 +25,4 @@ upload_egg:
     - python setup.py sdist
     - twine upload --repository-url $PYPI_SERVER --username $USERNAME --password $PASSWORD dist/*
   only:
-    - v1.13.1
+    - v1.13.2
